@@ -8,6 +8,7 @@ body {
 }
 .active-tag {
 	background-color: #BEB45A !important;
+	color: #000;
   }
   .nav-pills .nav-link {
 	background: inherit;
@@ -107,7 +108,6 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
