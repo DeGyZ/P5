@@ -7,13 +7,8 @@
 	<meta name="robots" content="follow">
 	<meta name="google-site-verification" content="Nina Carducci">
 
-	<link defer rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link defer rel="stylesheet" href="./assets/css/style.min.css">
-	
-	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script defer src="./assets/js/maugallery.min.js"></script>
-	<script defer src="./assets/js/scripts.js"></script>
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/css/style.min.css">
 	<link rel="stylesheet" media="all and (max-width: 1000px)" href="./assets/css/media-1000.css">
 	<link rel="stylesheet" media="all and (max-width: 650px)" href="./assets/css/media-650.css">
 
@@ -24,8 +19,7 @@
 
 </head>
 <body>
-<header>
-<div class="top-header">
+<header class="top-header">
 	<h1 class="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
@@ -36,8 +30,8 @@
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="instagram"></a></li>
 		</ul>
 	</div>
-</div>
-<div id="header">
+</header>
+<section id="header">
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -64,20 +58,18 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-</div>
-</header>
-<main>
-<div id="about">
+</section>
+<section id="about">
 	<div class="picture left">
 		<img src="./assets/images/nina.webp" alt="portrait de Nina Carducci">
 	</div>
 	<div id="about-me">
-		<h3 class="about-me__title">A propos de moi</h3>
-		<h4 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h4>
+		<h2 class="about-me__title">A propos de moi</h2>
+		<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
-</div>
+</section>
 <section id="gallery">
 	<h3 class="title">Portfolio</h3>
 	<div class="container py-3">
@@ -111,7 +103,7 @@
 				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
 			<div class="service__price">
-				<h3>350€/demi journée</h3>
+				<h4>350€/demi journée</h3>
 				<span>Matériel, déplacement inclus</span>
 			</div>
 
@@ -138,16 +130,15 @@
 		</div>
 	</div>
 </section>
-<div class="quote">
+<section class="quote">
 	<figure>
 		<blockquote>
-			<h4 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h4>
+			<h3 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h3>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
-</div>
-</main>
-<footer id="contact">
+</section>
+<section id="contact">
 	<div class="container">
 		<div class="form-container">
 			<h3>Une question ? Une demande de devis ?</h3>
@@ -166,6 +157,10 @@
 			<img src="./assets/images/camera.webp" alt="photographie d'un appareil photo">
 		</div>
 	</div>
-</footer>
+</section>
+<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="./assets/js/maugallery.min.js"></script>
+<script src="./assets/js/scripts.js"></script>
 </body>
 </html>
