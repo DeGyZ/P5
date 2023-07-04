@@ -1,8 +1,5 @@
 @media all and (max-width: 1000px) {
-	/* added from max-width: 1180px to consolidate*/
-	.picture {
-		flex : 2;
-	}
+
 	#about, #contact .container {
 		align-items: center;
 	}
@@ -13,7 +10,7 @@
 	#about-me h3, #about-me p {
 		width: 100%;
 	}
-	/* end of addition*/
+
 	#about{
 		flex-direction: column;
 	}
